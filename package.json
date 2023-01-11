@@ -1,0 +1,33 @@
+{
+  "name": "p-6-cafe",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y GULP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomopfer/cafe.git"
+  },
+  "author": "th",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomopfer/cafe/issues"
+  },
+  "homepage": "https://github.com/Thomopfer/cafe#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.1.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-webp": "^4.0.1",
+    "sass": "^1.57.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%"
+  ]
+}
