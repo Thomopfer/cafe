@@ -424,8 +424,7 @@ h3 {
   color: #c39c63;
 }
 .nav-principal a:active {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 .nav-principal a.activo {
   color: #c39c63;
