@@ -22,17 +22,21 @@
         font-weight: 700;
         margin-bottom: 1rem;
 
+        transition: transform 300ms;
+
         @include m.tablet { 
             margin-bottom: 0;
-        }
 
-        &:hover{
-            color: v.$secundario;
+            &:hover{
+                color: v.$secundario;
+                transform: translateY(-5px);
+            }
         }
 
         &:active{
-            transform: scale(1.05);
+            color: v.$secundario;
         }
+
 
         &.activo{
             color: v.$secundario;

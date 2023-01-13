@@ -5,6 +5,10 @@
     padding: 5rem 0;
     position: relative;
 
+    @include m.tablet {
+        min-height: 70rem;
+    }
+
     &::before{
         content: '' ;
         background-color: v.$negro;
@@ -21,6 +25,19 @@
     .contenido-header{
         position: relative;
     }
+
+    h1{
+        color: v.$blanco;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 5rem;
+
+        @include m.tablet {
+            margin-top: 10rem;
+        }
+    }
+
+
 }
 
 //header de cada pagina
