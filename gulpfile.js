@@ -15,7 +15,7 @@ const avif = require('gulp-avif');
 function css() {
 
     return src('src/scss/app.scss')                         //1- identificar archivo
-        .pipe( sass(  ) )      //2- compilar
+        .pipe( sass(  ) )                                   //2- compilar
         .pipe(postcss( [autoprefixer(  )] ))                // -compatibilidad-
         .pipe( dest('build/css') )                          //3- guardar el .css
 
