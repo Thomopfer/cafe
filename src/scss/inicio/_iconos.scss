@@ -2,7 +2,7 @@
 @use 'base/mixins' as m;
 
 .iconos{
-    margin-top: 5rem;
+    margin: 5rem 0;
     
     .listado-iconos{
 
@@ -21,6 +21,10 @@
                 font-size: 3.2rem;
                 color: v.$primario;
                 margin-top: 1rem;
+
+                @include m.tablet {
+                    margin-bottom: 1rem;
+                }
             }
         }
     }
