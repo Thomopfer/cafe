@@ -16,7 +16,7 @@
 
 </head>
 <body>
-    <header class="header header-galeria">
+    <header class="header header-contacto">
         <div class="contenido-header contenedor">
             <div class="barra">
                 <div class="logo">
@@ -28,65 +28,58 @@
                     <a href="nosotros.html">Nosotros</a>
                     <a href="proceso.html">Proceso</a>
                     <a href="menu.html">Menú</a>
-                    <a class="activo" href="galeria.html">Galería</a>
-                    <a href="contacto.html">Contacto</a>
+                    <a href="galeria.html">Galería</a>
+                    <a class="activo" href="contacto.html">Contacto</a>
                 </nav>
             </div>
 
             <div class="texto-header">
-                <h1></h1>
+                <h1>Mejores granos, mejor café</h1>
             </div>
         </div>
     </header>
 
     <main class="contenedor contenido-principal">
+        <h2><span>Reserva tu</span>Mesa</h2>
 
-        <h2><span>Vive la</span>Experiencia</h2>
+        <div class="contenido-contacto">
+            <form class="formulario">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Tu Nombre">
+                </div>
 
-        <div class="galeria">
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Tu Email">
+                </div>
 
-            <div class="img">
-                <img src="build/img/galeria/galeria_01.webp" alt="galeria1">
-            </div>
+                <div class="campo">
+                    <label for="numero">Numero de personas:</label>
+                    <select>
+                        <option value="" disabled selected>-- Seleccione --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="mas">+4</option>
+                    </select>
+                </div>
 
-            <div class="img">
-                <img src="build/img/galeria/galeria_02.webp" alt="galeria2">
-            </div>
+                <div class="campo">
+                    <label for="hora">Hora:</label>
+                    <input type="time" id="hora" max="18:00">
+                </div>
 
-            <div class="img">
-                <img src="build/img/galeria/galeria_03.webp" alt="galeria3">
-            </div>
-
-            <div class="img">
-                <img src="build/img/galeria/galeria_04.webp" alt="galeria4">
-            </div>
-
-            <div class="img">
-                <img src="build/img/galeria/galeria_05.webp" alt="galeria5">
-            </div>
-
-            <div class="img">
-                <img src="build/img/galeria/galeria_06.webp" alt="galeria6">
-            </div>
-
-            <div class="img">
-                <img src="build/img/galeria/galeria_07.webp" alt="galeria7">
-            </div>
-
-            <div class="img">
-                <img src="build/img/galeria/galeria_08.webp" alt="galeria8">
-            </div>
-
-            <div class="img">
-                <img src="build/img/galeria/galeria_09.webp" alt="galeria9">
-            </div>
-
-            <div class="img">
-                <img src="build/img/galeria/galeria_10.webp" alt="galeria10">
-            </div>
-
+                <div class="campo">
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha">
+                </div>
+                <div class="campo">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
         </div>
-
     </main>
 
     <footer class="footer">
