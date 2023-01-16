@@ -24,6 +24,11 @@
 
         p{
             font-size: 2rem;
+            margin: 0;
+
+            @include m.tablet {
+                margin-bottom: 2rem;
+            }
         }
     }
 }

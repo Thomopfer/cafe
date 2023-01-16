@@ -466,6 +466,10 @@ p {
   background-image: url(../img/header_menu.jpg);
 }
 
+.header-galeria {
+  background-image: url(../img/header_galeria.jpg);
+}
+
 .nav-principal {
   display: flex;
   flex-direction: column;
@@ -857,6 +861,12 @@ p {
 }
 .contenido-menu .texto p {
   font-size: 2rem;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .contenido-menu .texto p {
+    margin-bottom: 2rem;
+  }
 }
 
 .text-center {
