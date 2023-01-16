@@ -353,14 +353,6 @@ ul {
   margin: 0;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.bg-primario {
-  background-color: #5e311e;
-}
-
 h1, h2, .heading-blanco, h3 {
   font-family: "Raleway", sans-serif;
   margin: 0 0 3rem 0;
@@ -839,4 +831,42 @@ p {
   width: 50%;
   height: 4px;
   background-color: #c39c63;
+}
+
+.contenido-menu {
+  background-image: url(../img/cafe.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+  aspect-ratio: 3, 6;
+}
+@media (min-width: 480px) {
+  .contenido-menu {
+    aspect-ratio: 3, 4;
+  }
+}
+@media (min-width: 768px) {
+  .contenido-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    aspect-ratio: 16, 6;
+    background-size: 40%;
+    background-position: bottom right;
+  }
+}
+.contenido-menu .texto p {
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-primario {
+  background-color: #5e311e;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0;
 }
